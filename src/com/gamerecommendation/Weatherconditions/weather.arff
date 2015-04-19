@@ -1,0 +1,44 @@
+@relation gamecondition
+
+@attribute condition {Cloudy, Clear, Sunny, Fair, Partly_Cloudy ,Mostly_Cloudy, Showers, Haze, Dust, Other}
+@attribute temperature {Hot, Mild, Cool}
+@attribute chill {Regrettable, Mint}
+@attribute direction {Mint, Fair, Regular}
+@attribute speed {Fair, Regular, Mint}
+@attribute humidity {High, Normal, Low}
+@attribute visibility {Recommended, Not_Recommended}
+@attribute preassure {Fair, Mint}
+@attribute class {Recommended, Not_Recommended}
+
+@data
+Sunny, Cool, Mint, Fair, Fair, High, Recommended, Fair, Recommended
+Cloudy, Hot, Mint, Regular, Fair, Normal, Recommended, Fair, Recommended
+Partly_Cloudy, Hot, Regrettable, Regular, Fair, Normal, Recommended, Mint, Recommended
+Clear, Mild, Regrettable, Fair, Regular, Normal, Recommended, Fair, Recommended
+Other, Cool, Regrettable, Fair, Regular, High, Recommended, Fair, Not_Recommended
+Clear, Hot, Mint, Fair, Regular, Low, Recommended, Fair, Recommended
+Showers, Cool, Mint, Fair, Regular, Normal, Not_Recommended, Fair, Not_Recommended
+Sunny, Cool, Regrettable, Regular, Regular, High, Not_Recommended, Mint, Not_Recommended
+Fair, Cool, Mint, Regular, Regular, Normal, Recommended, Fair, Recommended
+Fair, Cool, Mint, Regular, Regular, Normal, Not_Recommended, Mint, Not_Recommended
+Fair, Cool, Mint, Mint, Mint, High, Not_Recommended, Fair, Not_Recommended
+Fair, Hot, Regrettable, Regular, Regular, High, Recommended, Mint, Recommended
+Partly_Cloudy, Mild, Mint, Fair, Regular, Normal, Recommended, Fair, Recommended
+Partly_Cloudy, Cool, Regrettable, Mint, Regular, High, Recommended, Fair, Not_Recommended
+Showers, Mild, Regrettable, Regular, Regular, Normal, Recommended, Fair, Not_Recommended
+Partly_Cloudy, Hot, Regrettable, Regular, Fair, Low, Recommended, Mint, Recommended
+Sunny, Mild, Regrettable, Fair, Regular, High, Recommended, Mint, Recommended
+Mostly_Cloudy, Mild, Regrettable, Regular, Regular, Normal, Recommended, Fair, Recommended
+Mostly_Cloudy, Hot, Mint, Regular, Mint, Normal, Recommended, Fair, Not_Recommended
+Partly_Cloudy, Mild, Mint, Regular, Regular, Normal, Recommended, Mint, Recommended
+Cloudy, Hot, Mint, Regular, Regular, Low, Not_Recommended, Mint, Recommended
+Mostly_Cloudy, Cool, Regrettable, Fair, Regular, Normal, Not_Recommended, Mint, Not_Recommended
+Other, Hot, Mint, Regular, Regular, High, Recommended, Fair, Not_Recommended
+Showers, Hot, Mint, Regular, Regular, High, Recommended, Fair, Not_Recommended
+Haze, Cool, Mint, Regular, Regular, High, Recommended, Fair, Not_Recommended
+Haze, Hot, Regrettable, Fair, Regular, Normal, Recommended, Fair, Not_Recommended
+Dust, Mild, Regrettable, Mint, Regular, Normal, Recommended, Fair, Not_Recommended
+Dust, Mild, Mint, Regular, Regular, Low, Recommended, Fair, Not_Recommended
+Cloudy, Mild, Mint, Regular, Fair, Normal, Recommended, Mint, Recommended
+Clear, Hot, Mint, Regular, Fair, High, Recommended, Mint, Recommended
+Other, Cool, Mint, Fair, Regular, Normal, Recommended, Fair, Not_Recommended
