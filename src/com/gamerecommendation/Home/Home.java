@@ -2,6 +2,8 @@ package com.gamerecommendation.Home;
 
 import com.gamerecommendation.Settings.Settings;
 import com.gamerecommendation.Weatherconditions.Weather;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Home extends javax.swing.JFrame {
 
@@ -198,7 +200,12 @@ public class Home extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Home().setVisible(true);
+                try {
+                    Thread.sleep(7600);
+                    new Home().setVisible(true);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }
